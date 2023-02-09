@@ -102,3 +102,23 @@ header {
 .plans h3 {
     margin: 24px auto 16px;
 }
+
+/* Contact Styles */
+.contact-section {
+    height: 300px;
+    margin: 130px 230px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.contact-section div {
+    padding: 60px 64px;
+}
+
+.contact-section h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
