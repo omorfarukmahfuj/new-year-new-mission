@@ -80,3 +80,25 @@ header {
     margin-top: 8px;
     color: #444343;
 }
+
+/* Plans Styles */
+.plans-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans h3 {
+    margin: 24px auto 16px;
+}
