@@ -5,10 +5,13 @@
 }
 
 /* Common Styles */
+.text-grey {
+    color: #444343;
+}
+
 .section-description {
     font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 24px;
+    margin-top: 24px;
 }
 
 .btn-primary {
@@ -19,6 +22,13 @@
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
+    margin-top: 24px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
 }
 
 /* Header Styles */
@@ -36,11 +46,37 @@ header {
 .hero-section {
     width: 25%;
     padding: 230px;
+    color: #FFFFFF;
 }
 
 .hero-section h1 {
     font-weight: 700;
     font-size: 50px;
-    color: #FFFFFF;
     margin-bottom: 24px;
+}
+
+/* Failures Styles */
+.failures-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px auto;
+}
+
+.section-img {
+    width: 30%;
+}
+
+.section-info {
+    width: 30%;
+}
+
+.section-info ul {
+    list-style: none;
+    margin-top: 24px;
+}
+
+.section-info li {
+    margin-top: 8px;
+    color: #444343;
 }
