@@ -25,6 +25,18 @@
     margin-top: 24px;
 }
 
+
+.btn-secondary {
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -103,8 +115,8 @@ header {
     margin: 24px auto 16px;
 }
 
-/* Contact Styles */
-.contact-section {
+/* Call Styles */
+.call-now-section {
     height: 300px;
     margin: 130px 230px;
     background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
@@ -113,12 +125,59 @@ header {
     background-repeat: no-repeat;
 }
 
-.contact-section div {
+.call-now-section div {
     padding: 60px 64px;
 }
 
-.contact-section h2 {
+.call-now-section h2 {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151414;
+    color: #ffffff;
+    padding: 130px;
+}
+
+.footer-info {
+    width: 50%;
+}
+
+.footer-info h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.social-links a {
+    margin-right: 18px;
+}
+
+.subscribe p {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #ffffff00;
+    color: #ffffff;
+    padding: 20px 64px 20px;
+    margin-top: 30px;
+    font-size: 18px;
 }
